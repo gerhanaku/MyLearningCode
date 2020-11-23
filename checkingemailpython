@@ -1,3 +1,12 @@
+Write a function that takes a string and checks that:
+
+it doesn't contain spaces,
+it contains the @ symbol,
+after @, there's a dot, but in a correct address a dot shouldn't stand immediately after @,
+(@. should not be in the string).
+Note that dots may also occur before @!
+
+
 def check_email(string):
     if ' ' in string:
         return False
