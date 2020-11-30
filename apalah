@@ -1,0 +1,5 @@
+sample = input()
+digits = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten']
+
+for i in sample:
+    print(digits[int(i)])
